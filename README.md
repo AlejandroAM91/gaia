@@ -1,5 +1,5 @@
-# 'Project name'
-'Project description'
+# Gaia
+Project generator software
 
-## AUTHORS
- * **Alejandro Alonso Mayo** - [mail](mailto:alejandroalonsomayo@gmail.com)
+## Authors
+ * **Alejandro alonso mayo** - [mail](mailto:alejandroalonsomayo@gmail.com)

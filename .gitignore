@@ -3,3 +3,6 @@ build/
 dist/
 .env/
 *.egg-info/
+
+# System Files
+.DS_Store
