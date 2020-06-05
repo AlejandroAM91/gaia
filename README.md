@@ -2,4 +2,4 @@
 Project generator software
 
 ## Authors
- * **Alejandro alonso mayo** - [mail](mailto:alejandroalonsomayo@gmail.com)
+ * **Alejandro Alonso Mayo** - [mail](mailto:alejandroalonsomayo@gmail.com)

@@ -15,9 +15,10 @@ setup(
     description='Project generation',
     long_description=readme,
     long_description_content_type='text/markdown',
-    url="https://github.com/AlejandroAM91/gaia",
+    url='https://github.com/AlejandroAM91/gaia',
+    download_url = 'https://github.com/AlejandroAM91/gaia/archive/v0.0.0.tar.gz',
     classifiers=[
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",
     ],
     install_requires=requirements,
