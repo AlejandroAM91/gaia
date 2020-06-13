@@ -1,6 +1,6 @@
 from setuptools import setup
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 REQUIREMENTS = ['jinja2']
 
 with open('README.md', 'r') as readme_file:
@@ -28,7 +28,7 @@ setup(
         'am91.gaia.template': 'base = am91.gaia.template.base',
     },
     package_data = {
-        'am91.gaia_template_base': [
+        'am91.gaia.template.base': [
             'templates/*.jinja',
             'templates/.*.jinja',
             'templates/**/*.jinja'

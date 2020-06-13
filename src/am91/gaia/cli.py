@@ -44,9 +44,11 @@ def parse_args():
 
 def init(args):
     module = None
+    module_name = None
     for mod in pkg_resources.iter_entry_points(TEMPLATE_GROUP):
         if mod.name == args.type: 
             module = mod.load()
+            module_name = mod.module_name
 
     if module is None:
         logging.error('Template not found')
@@ -56,7 +58,7 @@ def init(args):
 
     generator = Generator(manifest)
     generator.init(args.name)
-    generator.generate(module.module_name)
+    generator.generate(module_name)
 
 def list_templates(args):
     for mod in pkg_resources.iter_entry_points(TEMPLATE_GROUP):
